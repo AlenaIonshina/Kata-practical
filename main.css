@@ -195,6 +195,7 @@ main {
 
 .main__services-button--active {
   border: 2px solid var(--color-gren-light);
+  background-color: var(--color-white);
 }
 
 .main__information {
