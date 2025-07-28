@@ -333,7 +333,31 @@ main {
   .header__navigation-list > li:nth-child(4),
   .header__navigation-list > li:nth-child(5),
   .header__navigation-list > li:nth-child(6) {
-    display: block;
+    display: flex;
+  }
+
+  .item--call {
+    order: 1;
+  }
+
+  .item--chat {
+    order: 2;
+  }
+
+  .item--profile {
+    order: 3;
+  }
+
+  .item--line {
+    order: 4;
+  }
+
+  .item--repair {
+    order: 5;
+  }
+
+  .item--checkstatus {
+    order: 6;
   }
 
   .header__controls-right {
